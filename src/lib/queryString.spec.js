@@ -1,4 +1,4 @@
-const { queryString, parse } = require('./queryString');
+import { queryString, parse } from './queryString';
 describe('Name of the group', () => {
   it('should create a valid query string when an object is provided ', () => {
     const obj = {
